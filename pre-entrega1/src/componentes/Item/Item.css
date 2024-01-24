@@ -1,0 +1,40 @@
+.productCard {
+    border: 1px solid #e6e5e5;
+    border-radius: 10px;
+    max-width: 15em;
+    background-color: #fff;
+}
+
+/* Card Image Container*/
+.cardImgCont {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Image */
+.productCard > .cardImgCont > img {
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+/* Button Container*/
+.productCard .cardBtnCont{
+    text-decoration: none;
+}
+
+
+.productCard .cardBtn {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em 0.5em 0em;
+    
+}
+
+/* Card Button */
+.productCard .cardBtn button {
+    width: 60%;
+    
+}
